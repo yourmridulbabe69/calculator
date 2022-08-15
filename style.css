@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+
+}
+.contanier{
+    display: block;
+    width: 80%;
+    margin: 8px auto;
+}
+.contanier h1{
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 8px 6px ;
+    margin: 4px 8px;
+}
+.caltulator{
+    text-align: center;
+}
+.output{
+    margin: 4px 8px;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    background-color: antiquewhite;
+}
+.button{
+    text-align: center;
+    padding: 8px 12px;
+    margin: 4px 6px;
+    width: 40px;
+    cursor: pointer;
+    background-color: yellow;
+    border: none;
+    border-radius: 8px;
+}
+.button:hover{
+    border: none;
+    background-color: tomato;
+    border-radius: 8px ;
+}
